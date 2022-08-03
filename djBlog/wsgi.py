@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djBlog.settings')
-
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djBlog.settings.development') ### Aqui indico el sttiengs que quiero utilizar, el development.py por defecto
+## El os. permite traer cierta funcionalidades del sistema operativo.                                                                               
 application = get_wsgi_application()
