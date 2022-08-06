@@ -74,3 +74,4 @@ cuando lo sube un usuario que esta usando nuestra aplicacion. Nace de la interac
 .... El archico models.py esta en cada aplicacion que yo cree en django.
 
 .... El archivo wsgi.py actua como el archivo manage.py, pero este es para el deploy...
+######
