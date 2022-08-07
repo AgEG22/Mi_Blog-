@@ -4,7 +4,7 @@ from . import views
 # Create your views here. Yo aca creo mis vistas. 
 
 def index(request):     
-    return HttpResponse('Hola mundo') ## Esta en la funcion que me crea la vista
+    return HttpResponse('Hola mundo, a trabajar.') ## Esta en la funcion que me crea la vista
 
 ## que me muestra lo que yo quiera en un adetermidad ruta.    
 
