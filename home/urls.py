@@ -2,7 +2,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('34/', views.index, name='index'), # el name=index es darle un nombre a esa url.
+    path('', views.index, name='index'), # el name=index es darle un nombre a esa url.
 ]
 
 ## Lo que esta entre comilla vacio es la ruta a la que yo quiero que aparezca el "Hola mundo" a travez de la funcion index.
